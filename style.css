@@ -1,0 +1,70 @@
+.gameBg{
+background-color: #12181b;
+padding-top: 1px;
+}
+
+.title {
+    color:darkgoldenrod;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10%;
+    margin-bottom: 1em;
+}
+
+.display {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+   
+
+}
+
+.hide{
+    display: none;
+}
+
+.gameArea {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+
+}
+
+.tile {
+    border: 1px solid white;
+    min-width: 100px;
+    min-height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.playerX {
+    color:darkmagenta;
+
+}
+
+.playerO{
+    color:gold;
+}
+
+.controls{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+
+}
+
+.restart{
+    background-color: #498afb;
+}
+
+#reset {
+    background-color: #ff3860;
+}
